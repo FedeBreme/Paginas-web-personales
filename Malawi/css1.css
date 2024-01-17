@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body{
+    background-color: black;
+    color: gold;
+    font-family: 'Bungee Spice', cursive;
+}
+
+input{
+    background-color: gold;
+    color: black;
+    box-shadow: 5px 5px 15px gold;
+    width: 220px;
+    height: 30px;
+    margin-left: 55px;
+}
+
+.boton{
+    margin-left: 60px;
+    margin-top: 3px;
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    background-color: skyblue;
+    background-color: transparent;
+    place-items: center;
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 250px;
+    box-shadow: 5px 5px 15px gold;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }

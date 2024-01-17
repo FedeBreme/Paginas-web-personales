@@ -1,0 +1,8 @@
+INTRUCCIONES A SEGUIR:
+
+1. Ingresa a donde dice "EntraAca"
+2. Ingresa tu nombre en minuscula (camila)
+3. Ingrea tu numero favorito en donde dice "contraseña"
+4. Inicia sesion
+
+Espero te guste la pagina, saludos <3

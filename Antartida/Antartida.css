@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+p{
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+button{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 90px;
+    height: 30px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.boton1{
+    width: 120px;
+    height: 40px;
+    margin-left: 160px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.boton2{
+    width: 120px;
+    height: 40px;
+    margin-left: 380px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arbutus', cursive;
+}
+
+.h1{
+    font-family: 'Bungee Outline', cursive;
+}
+
+.img1{
+    margin-left: 50px;
+}
+
+.img2{
+    margin-left: 150px;
+}
+
+.img3{
+    margin-left: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    place-items: center;
+    height: 0px;
+    padding: 20px;
+    margin: auto;
+
+  }
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-top: 5px;
+    margin-right: 1100px;
+
+  }
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.div1{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .munu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul{
+    font-size: 20px;
+}
+
+.espacio{
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.bordes{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.blanco{
+    color: white;
+}
+
+
+
+
+
+

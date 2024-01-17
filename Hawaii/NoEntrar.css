@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akatab&display=swap');
+
+body{
+    background-color: skyblue;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/7/Happy-Birthday-Balloons-PNG-HD-Quality.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1{
+    font-family: 'VT323', monospace;
+    font-size: 80px;
+}
+
+p{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    place-items: center;
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-top: 250px;
+    margin-left: 680px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+}
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+button{
+    font-family: 'Akatab', sans-serif;
+    margin-left: 220px;
+    background-image: url("https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/curiosidades.batanga.com/files/Que-es-un-glaciar-3.jpg");
+    color: black;
+    cursor: pointer;
+    border-radius: 60px;
+    transition: all 0.5s ease;
+    width: 150px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

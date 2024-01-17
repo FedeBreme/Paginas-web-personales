@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-weight">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="./css1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-items">
+            <div class="login">
+                <div class="login-triangle"></div>
+                <h2 class="login-header">Iniciar Sesion</h2>
+                <form class="login-container" onsubmit="login(event)">
+                  <p><input type="text" id="username" placeholder="Usuario" required></p>
+                  <p><input type="password" id="password" placeholder="Contraseña" required></p>
+                  <p><input class="boton" type="submit" value="Iniciar sesión"></p>
+                </form>
+                <p id="error-message"></p>
+              </div>
+        </div>
+     </div>
+     <script src="./js.js"></script>
+</body>
+</html>

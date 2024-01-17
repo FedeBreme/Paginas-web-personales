@@ -1,0 +1,219 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+h3{
+  text-align: center;
+}
+
+button{
+  margin-left: 410px;
+  background-image: url("https://www.publicdomainpictures.net/pictures/20000/nahled/black-red-green-background.jpg");
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: 2px 2px 2px rgb(255, 255, 255);
+  border: whitesmoke;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.bordes{
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+.img1{
+  margin-left: 125px;
+}
+
+.img2{
+  margin-left: 60px;
+}
+
+.img3{
+  margin-left: 60px;
+}
+
+.img4{
+  margin-left: 120px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    place-items: center;
+    height: 0px;
+    padding: 40px;
+    margin: auto;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-right: 40px;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 40px;
+}
+
+:root {
+    --background: #000000;
+    --background-card: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: var(--background);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.gallery{
+    display: flex;
+    left: calc(50% - 330px)
+}
+
+.card{
+    position: relative;
+    left: 0px;
+    width: 300px;
+    height: 400px;
+    background-color: var(--background-card);
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+
+.uno{
+  box-shadow: 15px 15px 15px rgba(68, 60, 60, 0.5);
+}
+
+.dos{
+  box-shadow: 0 5px 12px rgba(255, 0, 0, 0.5);
+}
+
+.tres{
+  box-shadow: 0 5px 12px rgba(6, 83, 16, 0.5);
+}
+
+.cuatro{
+  box-shadow: 0 5px 12px rgba(255, 255, 255, 0.5);
+}
+
+.card:not(:first-child){
+    margin-left: -45px;
+}
+
+.card:hover{
+    transform: translateY(-16px);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card:hover ~ .card{
+    left: 55px;
+}
+
+.card img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .munu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+h2{
+  text-align: center;
+}
