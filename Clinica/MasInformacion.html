@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Como sacar Turno?</title>
+    <link rel="icon" type="image/png" href="./Imagenes/Logo2.png">
+    <link rel="stylesheet" href="./CSS/MasInformacion.css">
+</head>
+<body>
+    <header>
+        <h1>¿Como sacar Turno?</h1>
+    </header>
+    <article id="article1">
+        <p>
+            Para poder sacar un turno de manera onine para ser atendido en la Clinica Amelia es tan sencio como seguir una serie de pasos totalmente sencillos para que asi puedas reservar tu turno de manera mucho mas simplificada
+        </p>
+        <h2>Preguntas Frecuentes</h2>
+        <button class="accordion">¿Porque se tiene se sacar turno online?</button>
+        <div class="panel">
+            <p>
+                No es totalmente obligatorio sacar unicamente turno via online. Sin embargo, nosotros de esta manera podemos optimizar nuestro sistema de agendado de turnos
+                haciendo asi que, de manera presencial, no haya tiempos de espera ni perdidas de tiempo para nuestros pacientes.
+            </p>
+        </div>
+        <br>
+        <button class="accordion">¿Como funciona el sistema online?</button>
+        <div class="panel">
+            <p>
+                Usted va a poder hablar con un Bot (programa informático que efectúa automáticamente tareas reiterativas mediante Internet a través de una cadena de comandos o funciones autónomas previas para asignar un rol establecido)
+                via WhatsApp para poder sacar su turno correspondiente, especificando tambien su especialidad, horario, fecha y mas. <a href="">A continuacion se explicara aun mejor como es este sistema.</a>
+            </p>
+        </div>
+        <br>
+        <button class="accordion">¿Ya no puedo sacar turno de manera presencial?</button>
+        <div class="panel">
+            <p>
+                !Al contrario¡. Usted puede seguir sacando turno de manera presencial en cualquiera de nuestros puntos medicos, de la manera tradicional que ya conocemos. 
+            </p>
+        </div>
+        <!--SCRIPT-->
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+    
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        <!--SCRIPT-->
+    </article>
+    <br>
+    <br>
+    <hr>
+    <article id="article2">
+        <h2>Pasos a seguir para sacar turno de manera online</h2>
+        <h4>1. Ingresar a la especialidad que nececites</h4>
+        <img src="./Imagenes/Captura1.png" height="600" width="1200">
+        <br>
+        <p>
+            Primero debe ingresar a nuestra <a href="./Index.html">Pagina Principal</a> para posteriormente ir al apartado de <span>Especialidades</span>. 
+            Una vez clike ahi, sera redirigido a un apartado de la misma pagina en donde dice <span>"Solicitar Turno"</span>, y ahi encontrara las 8 especialidades 
+            que se trabajan en nuestra clinica.
+        </p>
+        <img src="./Imagenes/Captura2.png" height="600" width="1200">
+        <br>
+        <br>
+        <hr>
+        <h4>2. Ingrese al chat de WhatsApp</h4>
+        <img src="./Imagenes/Captura3.png" height="600" width="1000">
+        <br>
+        <p>
+            Una vez ingresado en la especialiad en la que usted requiere sacar un turno, va a poder observar, primero, una breve descripcion de la que se brinda en dicha especialidad. 
+            Posteriormente, mas aba a la hora de escrolear, va a poder observar un apartado que dice <span>"Pedir Turno"</span>, ahi es donde usted debera clickear para que sea 
+            redirigido autamticamente al chat de WhatsApp para poder solicitar su respectivo turno. A medida que escrolee mas abajo encontrara las <span>especialidades</span> del mismo departamento 
+            como tambien los <span>doctores/as encargados</span> en la misma area.
+        </p>
+        <img src="./Imagenes/Captura4.png" height="500" width="1000">
+        <br>
+        <br>
+        <hr>
+        <h4>3. Final, Inicialice el chat co nuestro Bot de WhatsApp</h4>
+        <br>
+        <p>
+            Una vez sted entre al chat de WhatsApp, debera mandarle n mensaje a nuestro bot. Posteriormente el le indicara
+            como seguir adelante para que pueda sacar su correspondiente turno
+        </p>
+    </article>
+    <br>
+    <footer>
+        <div class="flex-container2">
+            <div class="flex-items2">
+                <h2>Telefonos de Interes</h2>
+                <br>
+                <ul>
+                    <li>Guardia Medica: 261 205 9000</li>
+                    <br>
+                    <li>Call Center: 261 464 1100</li>
+                </ul>
+            </div>
+            <div class="flex-items2">
+                <h2>Informacion General</h2>
+                <br>
+                <ul>
+                    <li>info@clinicaamelia.com.ar</li>
+                    <br>
+                    <li>admision@clinicaamelia.com.ar</li>
+                    <br>
+                    <li>presupuestos@clinicaamelia.com.ar</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <p>Federico Jose Breme | 1134915057 | fedebremecasla@outlook.com</p>
+    </footer>
+</body>
+</html>

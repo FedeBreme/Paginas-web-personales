@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: white;
+    font-family: kanit;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header img {
+    display: block; 
+    margin: 0 auto;
+}
+
+/*menu*/
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #0CC0DF;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul li {
+    list-style: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.ul li a:hover {
+    color: #085563;
+}
+
+/*desplegable*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0CC0DF;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/*article1*/
+
+#article1 {
+    text-align: center;
+}
+
+#article1 h1 {
+    color: #085563;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#article1 p {
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#article1 img{
+    border-radius: 15px;
+}
+
+#article1 ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+/*Article2*/
+
+#article2 {
+    text-align: center;
+}
+
+#article2 h3 {
+    text-decoration: none;
+    font-style: italic;
+    margin-bottom: -25px;
+}
+
+#article2 h2 {
+    font-size: 30px;
+    color: #085563;
+}
+
+.cartita {
+    width: calc(35% - 20%);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #0CC0DF;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Article3*/
+
+#article3 {
+    text-align: center;
+}
+
+#article3 h3 {
+    text-decoration: none;
+    font-style: italic;
+    margin-bottom: -25px;
+}
+
+#article3 h2 {
+    font-size: 30px;
+    color: #085563;
+}
+
+.cartita2 {
+    width: calc(35% - 20%);
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #085563;
+    color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Article4*/
+
+#article4 {
+    text-align: center;
+}
+
+#article4 h1 {
+    font-size: 40px;
+    color: #085563;
+}
+
+#article4 p a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #085563;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#article4 p a:hover {
+    background-color: #25D366;
+}
+
+#article4 p a:active {
+    background-color: #119140;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #085563;
+    color: white;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #085563;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+  
+.flex-items2:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items2:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-top: 35px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 20px;
+}

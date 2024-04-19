@@ -1,0 +1,152 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    background-color:  rgba(255, 0, 0, 0.856);
+}
+
+.margennegativo {
+    margin-top: -20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header p {
+    font-size: 20px;
+}
+
+header p a {
+    text-decoration: none;
+    margin: 7px;
+}
+
+header p a:hover {
+    padding: 5px;
+    background-color: rgba(167, 167, 167, 0.856);
+    color: black;
+}
+
+header p a:active {
+    background-color: rgba(99, 99, 99, 0.856);
+    color: black;
+}
+
+header input {
+    margin-top: 5px;
+    width: 600px;
+    padding: 3px;
+}
+
+.fav {
+    text-align: right;
+}
+
+/*Article*/
+
+article hr {
+    margin-top: -30px;
+}
+
+article h1{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 60px;
+}
+
+article input {
+    width: 480px;
+    height: 30px;
+    margin-left: 705px;
+    border-radius: 10px;
+}
+
+article p {
+    text-align: center;
+}
+
+article a{
+    text-decoration: none;
+    margin: 25px;
+    padding: 10px;
+    background-color: rgba(167, 167, 167, 0.856);
+    color: black;
+}
+
+article a:hover {
+    background-color: rgba(99, 99, 99, 0.856);
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 850px;
+}
+
+.boton {
+    text-align: right;
+}
+
+button {
+    padding: 10px;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: 100px;
+}

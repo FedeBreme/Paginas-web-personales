@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: Anta;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(167, 167, 167, 0.856);
+}
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 30px;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-left: 700px;
+}
+
+header h1 {
+    color: #2d63ec;
+    font-size: 45px;
+}
+
+/*Menu*/
+
+nav {
+    background-color: whitesmoke;
+    color: #2d63ec;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2d63ec;
+}
+
+nav ul li a:hover {
+    border-bottom: 4px #2d63ec solid;
+}
+
+/*Article*/
+
+.img {
+    width: 200px; 
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+article {
+    text-align: center;
+}
+
+article h2 {
+    color: #2d63ec;
+}
+
+article h2 a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #2d63ec;
+    color: whitesmoke;
+    border-radius: 150px;
+}
+
+article h2 a:hover {
+    background-color: #1e4097;
+}
+
+/*Article 2*/
+
+.article2 h1 {
+    font-size: 35px;
+}
+
+.article2 span {
+    padding: 12px;
+    background-color: rgb(173, 216, 233);
+    color: #2d63ec;
+    border-radius: 10px;
+}
+
+.containx {
+    display: inline-block; 
+}
+
+/*BlueSky*/
+
+.flex-containerBlueSky {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    padding: 40px;
+    background-color: rgb(173, 216, 233);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(167, 167, 167, 0.856);
+}
+  
+.flex-itemsBlueSky:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: #2d63ec;
+}
+
+/*Blue*/
+
+.flex-containerBlue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    padding: 40px;
+    background-color: #2d63ec;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(167, 167, 167, 0.856);
+}
+  
+.flex-itemsBlue:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: whitesmoke;
+}
+
+/*Article3*/
+
+.article3 {
+    text-align: center;
+}
+
+/*acordion*/
+
+.accordion {
+    background-color: whitesmoke;
+    color: #2d63ec;
+    border: 2px rgba(167, 167, 167, 0.856) solid;
+    cursor: pointer;
+    padding: 18px;
+    width: 1200px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: whitesmoke;
+    max-height: 0;
+    width: 1200px;
+    margin-left: 335px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.accordion:hover {
+    background-color: rgba(167, 167, 167, 0.856);
+    color: #2d63ec;
+    box-shadow: 0 0 10px  rgba(167, 167, 167, 0.856);;
+}
+
+.active, .accordion:hover {
+    background-color: whitesmoke;
+    color: #2d63ec;
+}
+
+.article3 a {
+    text-decoration: none;
+    color: #2d63ec;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #2d63ec;
+}
+
+
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFA Seleccion</title>
+    <link rel="icon" type="image/png" href="./Imagenes/Argentine_Football_Association_logo.svg.png">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="flex-items">
+                <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Argentine_Football_Association_logo.svg/1200px-Argentine_Football_Association_logo.svg.png">
+            </div>
+            <div class="flex-items menu">
+                <p>
+                    <a href="./index.html">INICIO</a> | <a href="./Torneos.html">TORNEOS</a> | <a href="./Seleccion.html">SELECCION</a> | <a href="./Institucion.html">INSTITUCION</a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <article>
+        <div id="carousel-container">
+            <div id="carousel">
+                <div class="slide"><img src="https://media.urgente24.com/p/8c1b0429678ae224e60e6e5a092218f7/adjuntos/319/imagenes/002/775/0002775779/1200x0/smart/argentinacampeon3raestrellaymisioncumplidaparamessifotoportadajpg.jpg" alt="Imagen 1"></div>
+                <div class="slide"><img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt67c99a0f260195c1/615f5b5aa1b7d149b9910b93/140d1d01f21976974c0a4706b868cfd3abee064e.png?auto=webp&format=pjpg&width=3840&quality=60" alt="Imagen 2"></div>
+                <div class="slide"><img src="https://media.a24.com/p/3b31606d7fd78e79185d537a0653c171/adjuntos/296/imagenes/009/001/0009001141/1200x675/smart/messi-copajpg.jpg" alt="Imagen 3"></div>
+            </div>
+        </div>
+    
+        <button class="carousel-btn" id="prev-btn" onclick="prevSlide()">❮</button>
+        <button class="carousel-btn" id="next-btn" onclick="nextSlide()">❯</button>
+    
+        <script>
+            let currentSlide = 0;
+    
+            function showSlide(index) {
+                const carousel = document.getElementById("carousel");
+                currentSlide = (index + carousel.childElementCount) % carousel.childElementCount;
+                carousel.style.transform = `translateX(${-currentSlide * 100}%)`;
+            }
+    
+            function prevSlide() {
+                showSlide(currentSlide - 1);
+            }
+    
+            function nextSlide() {
+                showSlide(currentSlide + 1);
+            }
+        </script>
+    </article>
+    <br>
+    <article>
+        <h2>ULTIMAS NOTICIAS</h2>
+        <br>
+        <article class="cartas">
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/fEM/2023-carpeta%201/2023-carpeta%202/2023-carpeta%203/2023-carpeta%204/IMG_5206.JPG"/>
+                    <h3 class="card-description">TORNEOS: Se llevo a cabo el sorteo de la duodecima edicion de la Copa Argentina.</h3>
+                    <br>
+                    <a href="./Torneos.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/torneo/Placas%20categor%C3%ADas/2023/Diciembre/SORTEO%20COPA%20AMERICA/wwv.jpeg"/>
+                    <h3 class="card-description">TORNEOS: La campaña de Boca, campeon de la Copa YPF.</h3>
+                    <br>
+                    <a href="./Torneos.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/fEM/2023-carpeta%201/2023-carpeta%202/2023-carpeta%203/2023-carpeta%204/GA8kD7EXIAAsJCs.jpg"/>
+                    <h3 class="card-description">TORNEOS: Atletico Rafaela logro el segundo ascenso a la Primera B Femenina.</h3>
+                    <br>
+                    <a href="./Torneos.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+        </article>
+        <article class="cartas">
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/torneo/Placas%20categor%C3%ADas/2024/Enero/DSC_7831.JPG"/>
+                    <h3 class="card-description">SELECCION: Argentina vencio 4-0 en la Copa America de Futsal ante Bolivia.</h3>
+                    <br>
+                    <a href="./Seleccion.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/DSC_7602.jpg"/>
+                    <h3 class="card-description">SELECCION: Otro dia de trabajos en el predio Lionel Andres Messi.</h3>
+                    <br>
+                    <a href="./Seleccion.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/fEM/2023-carpeta%201/2023-carpeta%202/2023-carpeta%203/2023-carpeta%204/DSC_4217.jpg"/>
+                    <h3 class="card-description">SELECCION: La Seleccion Sub 20 jugo ante un combinado de la Liga Casildense.</h3>
+                    <br>
+                    <a href="./Seleccion.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+        </article>
+        <article class="cartas">
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/noticias/inauguracion-de-las-oficinas-de-la-afa-en-miami/9e5d68259b213491156f1af770b60c8c.jpeg"/>
+                    <h3 class="card-description">INSTITUCION: El presidente Tapia Inauguro las oficinas de la AFA en Miami.</h3>
+                    <br>
+                    <a href="./Institucion.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/torneo/Placas%20categor%C3%ADas/2023/OCTUBRE/WhatsApp%20Image%202023-10-05%20at%2012.48.31.jpeg"/>
+                    <h3 class="card-description">INSTITUCION: Conferencia de prensa Mundial Centenario 2030.</h3>
+                    <br>
+                    <a href="./Institucion.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+            <div class="card uno">
+                <div class="card-content">
+                    <img class="card-title" src="https://www.afa.com.ar/upload/noticias/se-realizo-la-asamblea-extraordinaria-en-el-predio-lionel-andres-messi/66a3a6a7798caa62e2ba2ebe610ca654.jpg"/>
+                    <h3 class="card-description">INSTITUCION: Se realizo la Asamblea Extraordinaria en el Predio Lionel Andres Messi.</h3>
+                    <br>
+                    <a href="./Institucion.html" target="_blank">LEER MAS.</a>
+                </div>
+            </div>
+        </article>
+    </article>
+    <br>
+    <br>
+    <footer>
+        <h4>REDES SOCIALES</h4>
+        <br>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/480px-Instagram_icon.png" title="Instagram">
+            <img src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.87170709.1706659200&semt=ais" title="Twiter/X">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" title="Facebook">
+            <img src="https://assets.stickpng.com/images/5cb78671a7c7755bf004c14b.png" title="TikTok">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" title="Youtube">
+        </div>
+        <div id="redes">
+            <a href="https://www.instagram.com/afa.oficial/" target="_blank">INSTAGRAM</a> | <a href="https://twitter.com/afa" target="_blank">TWITTER(X)</a> | <a href="https://www.facebook.com/AFAOFICIAL/" target="_blank">FACEBOOK</a> | <a href="https://www.tiktok.com/@afaseleccion" target="_blank">TIK TOK</a> | <a href="https://www.youtube.com/@AFAOFICIAL" target="_blank">YOUTUBE</a>
+        </div>
+        <div>
+            <h4>MAIN SPONSOR GLOBAL</h4>
+            <br>
+            <div class="footerIm">
+                <img src="https://seeklogo.com/images/A/adidas-logo-8B4C4AB94A-seeklogo.com.png">
+                <img src="https://cdn-icons-png.flaticon.com/512/825/825539.png">
+            </div>
+        </div>
+        <br>
+        <div>
+            <h4>SPONSORS OFICIALES SELECCIONES NACIONALES</h4>
+            <br>
+            <div class="footerIm dos">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Coca-Cola_bottle_cap.svg">
+                <img src="https://segurodebici.com.ar/wp-content/uploads/2021/05/Sancor-Seguros.png">
+                <img src="https://w7.pngwing.com/pngs/10/368/png-transparent-ypf-hd-logo.png">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Schneider_logo.png">
+            </div>
+        </div>
+        <br>
+        <div>
+            <h4>SPONSORS DIGITALES</h4>
+            <br>
+            <div class="footerIm tres">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Schneider_logo.png">
+                <img src="https://w1.pngwing.com/pngs/692/868/png-transparent-mcdonalds-logo-corporate-identity-logos-text-yellow-orange-line.png">
+                <img src="https://seeklogo.com/images/P/pedidosya-logo-A90F6F004F-seeklogo.com.png">
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h4>CREDITOS</h4>
+            <p>Federico Jose Breme | 1134915057 | fedebremecasla@outlook.com</p>
+            <br>
+        </div>
+    </footer>
+</body>
+</html>
